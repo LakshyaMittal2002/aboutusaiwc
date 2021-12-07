@@ -1,0 +1,97 @@
+/* body{
+    overflow:hidden;
+} */
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+.bluebg{
+    width:1130px;
+    height:367px;
+    /* border:2px solid yellow; */
+    margin-left:310px;
+    background-color: #24344E;
+
+}
+.posimg{
+    position:absolute;
+    top:-70px;
+    left :8px;
+    width:671.77px;
+    Height: 512.9px;
+}
+.australia
+    {width:140px;
+        height:29px;
+        /* border:2px solid yellow; */
+    color:#F16B58;
+    position:absolute;
+    left:530px;
+    top:70px;
+    Font-size: 24px
+}
+.logo{
+    /* position:absolute; */
+    /* right:350px; */
+    /* top:0px; */
+    max-width:100px;
+    height:auto;
+    width:70px;
+    height:70px;
+}
+.instimg{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    right:330px;
+    top:-19px;
+}
+.whole{
+    border:2px solid yellow;
+    width:450px;
+    height:350px;
+    position:absolute;
+    top:10px;
+    right:50px;
+    overflow-y: auto;
+    overflow-x:hidden;
+    color:white;
+    text-align:justify;
+    padding:24px;
+    box-sizing:border-box ;
+    direction: rtl;
+}
+
+.inst{width:218px;
+    height:43px;
+    /* border:2px solid yellow; */
+    font-size:36px;
+    color:white;
+    position:absolute;
+    /* right:550px; */
+    left:530px;
+    top:25px;
+}
+ /* Designing for scroll-bar */
+ ::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(221, 200, 200);
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #F16B58;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} 

@@ -1,0 +1,343 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.photo{
+    background-color: white;
+    
+}
+.flexbody{
+   
+    width:85%;
+    margin:auto;
+}
+.flex11{
+    display:flex;
+    /* border:2px solid green; */
+    justify-content:space-between;
+  
+
+}
+.flex12{
+    margin-top:-2px;
+    display:flex;
+    justify-content:space-between;
+}
+.img1 {
+    width:31%;
+    height:65px;
+    /* margin-left:5px;
+    margin-right:5px; */
+    border-radius:7px;
+}
+.img2 {
+    width:31%;
+    height:65px;
+    border-radius:7px;
+}
+.img3 {
+    width:31%;
+    height:65px;
+    border-radius:7px;
+}
+.flex2{
+    display:flex;
+    justify-content: space-between;
+    /* border:2px solid green; */
+    width:47%;
+}
+.grey{
+    color: rgb(80, 73, 73);
+    
+    
+}
+.blank{
+    height:100px;
+}
+.blank1{
+    height:100px;
+}
+
+.box1{
+    /* border:2px solid green; */
+    padding:20px 50px;
+    margin-top:0.5%;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20.4448px;
+line-height: 113.2%;
+/* identical to box height, or 39px */
+
+letter-spacing: 0.065em;
+
+/* White */
+
+color: #FFFFFF;
+background: #F16B58;
+box-shadow: 0px 53.82px 67.275px rgba(255, 101, 9, 0.07), 0px 22.4847px 28.1059px rgba(255, 101, 9, 0.0503198), 0px 12.0214px 15.0268px rgba(255, 101, 9, 0.0417275), 0px 6.7391px 8.42388px rgba(255, 101, 9, 0.035), 0px 3.57909px 4.47386px rgba(255, 101, 9, 0.0282725), 0px 1.48934px 1.86167px rgba(255, 101, 9, 0.2);
+border-radius: 4.3056px;
+
+
+
+}
+.text{
+  width:55%;
+    height:400px;
+    color: #F16B58;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 124.5%;
+    /* or 80px */
+    
+    letter-spacing: 0.02em;
+}
+.part1{
+    /* border:2px solid pink; */
+    width:50%;
+    height:400px;   
+}
+.fimage{
+    max-width:100%;
+    height:370px;
+}
+.about1{
+    width:85%;
+    margin:auto;
+}
+
+.about{
+    
+    background:white;
+}
+.heading{
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+      font-size: 64px;
+      font-style: bold;
+      letter-spacing: 10%;
+    
+    border-bottom:3.5px solid black
+      
+}
+.why{
+    Font-size: 48px;
+    width:40%;
+    margin-top:80px; 
+   
+    letter-spacing: 5%;
+    /* font-style:normal; */
+    font-weight:lighter;
+    padding-bottom: 0px; 
+    border-bottom:1px solid black;
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 48px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+/* Black */
+
+color: #1E2532;
+
+/* Black */
+
+color: #1E2532;
+
+}
+
+.content1{
+    margin-top:17px;
+    /* border:2px solid green; */
+    width:95%;
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+color: #666666;
+}
+
+.list1{
+    margin-left:2%;
+}
+.end{
+    height:20px;
+}
+
+
+@media only screen and (max-width: 1114px) {
+    .text{
+        width:55%;
+          height:400px;
+          color: #F16B58;
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 55px;
+          /* line-height: 124.5%; */
+          /* or 80px */
+          
+          /* letter-spacing: 0.02em; */
+      }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .text{
+        width:55%;
+          height:400px;
+          color: #F16B58;
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 49px;
+          /* line-height: 124.5%; */
+          /* or 80px */
+          
+          /* letter-spacing: 0.02em; */
+      }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+    .text{
+        width:55%;
+          height:400px;
+          color: #F16B58;
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          /* line-height: 124.5%; */
+          /* or 80px */
+          
+          /* letter-spacing: 0.02em; */
+      }
+
+}
+@media only screen and (max-width: 550px) {
+    .text{
+        width:55%;
+          height:400px;
+          color: #F16B58;
+          font-family: Bebas Neue;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          /* line-height: 124.5%; */
+          /* or 80px */
+          
+          /* letter-spacing: 0.02em; */
+      }
+      .flexbody{
+        width:85%;
+        margin:auto;
+        
+    }
+   .flex11{
+display:flex;
+flex-direction:column-reverse;
+
+   }
+   .flex2{
+       display:none;
+   }
+   .flex12{
+       justify-content: flex-start;
+   }
+   .box1{
+       position:relative;
+       top:-270px;
+       
+       
+   }
+.part1{
+    /* border:2px solid green; */
+   width:100%;
+   height:auto;
+   border-radius:7px;
+}
+.text{
+    margin-top:30px;
+    width:100%;
+    font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 124.5%;
+/* or 30px */
+
+letter-spacing: 0.02em;
+
+/* Orange */
+
+color: #F16B58;
+}
+.blank{
+    margin-top:-250px;
+}
+}
+@media only screen and (max-width: 400px){
+    .text{
+        font-size:24px;
+    }
+    .box1{
+        background: #F16B58;
+box-shadow: 0px 26.0025px 32.5031px rgba(255, 101, 9, 0.07), 0px 10.8632px 13.579px rgba(255, 101, 9, 0.0503198), 0px 5.80799px 7.25999px rgba(255, 101, 9, 0.0417275), 0px 3.25591px 4.06989px rgba(255, 101, 9, 0.035), 0px 1.72919px 2.16149px rgba(255, 101, 9, 0.0282725), 0px 0.719555px 0.899444px rgba(255, 101, 9, 0.2);
+border-radius: 2.0802px;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 19.6416px;
+line-height: 113.2%;
+/* identical to box height, or 19px */
+
+letter-spacing: 0.065em;
+
+/* White */
+
+color: #FFFFFF;
+    }
+}
+@media only screen and (max-width: 300px){
+    .box1{
+        position:relative;
+        top:-200px;
+        
+        
+    }
+    .list1{
+        margin-left:5%;
+    }
+}
+
+@media only screen and (max-width: 250px){
+    .box1{
+        position:relative;
+        top:-150px;
+        
+        
+    }
+    .list1{
+        margin-left:6%;
+    }
+
+}

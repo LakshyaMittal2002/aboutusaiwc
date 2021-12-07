@@ -1,0 +1,316 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-color: #24344E;
+    /* height:1628px;
+    border:2px solid green; */
+}
+/* .whole{
+    width: 90%;
+    margin:auto;
+    border:2px solid rgb(212, 224, 212);
+} */
+
+.maps{
+    /* width:1070px; */
+    width:100%;
+    height:64px;
+    /* margin-left:100px; */
+    /* margin:auto; */
+    
+    /* border:2px solid yellow; */
+   border-bottom:3.5px solid white ;
+    margin-top:60px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    font-style: bold;
+    letter-spacing: 10%;
+    padding:10px 0px;
+    color:white;
+    
+}
+.india{
+    /* width:236px; */
+    width:20%;
+    height:48px;
+  
+    border-bottom:1px solid white ;
+    /* margin-left:100px; */
+    /* margin:auto; */
+    margin-top:30px;
+    color:#F16B58;
+    Font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5%;
+    font-style:normal;
+    padding-bottom: 10px;
+    
+}
+.mapimg{
+    width:47%;
+    height:365px;
+    /* border:2px solid yellow; */
+    /* border-radius:2%; */
+    /* margin-left:100px; */
+    /* margin:auto; */
+    margin-top:20px;
+}
+
+.ausimg{
+    max-width: 100%;
+    height:auto;
+    border:1px solid #E6E6E6;
+    border-radius: 3%;
+}
+.flex1{
+    display:flex;
+    /* border:2px solid white; */
+  
+}
+.ins{
+    /* border:2px solid rgb(228, 228, 220); */
+    width:40%;
+    height:375px;
+    margin-left:10%;
+    margin-top:20px;
+    overflow-y:auto;
+}
+
+.logo{
+    width:80.69px;
+    height:70px;
+    /* border:2px solid rgb(228, 228, 220); */
+    margin-bottom:5px;
+}
+.unit{
+    display:flex;
+}
+.sub{
+    color:white;
+    /* border:2px solid yellow; */
+    height:60px;
+    /* width:350px; */
+    width:100%;
+    margin-top:10px;
+    margin-left:5%;
+    margin-right:2%;
+    font-family: 'Bebas Neue', cursive;
+}
+.uni{
+    font-size:36px;
+    
+    line-height:36px;
+    font-weight:700px;
+    font-style:normal;
+}
+.place{
+    font-size:24px;
+    line-height:24px;
+    font-weight:300px;
+    font-style:normal;
+
+}
+@media only screen and (max-width: 1150px){
+    .uni{font-size:25px;
+
+    }
+    .place{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .uni{font-size:20px;
+
+    }
+    .place{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 790px){
+    .uni{font-size:18px;
+
+    }
+    .place{
+        font-size:15px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .ins {
+        display:none;
+    }
+    .ins1{
+        display:none;
+    }
+    .mapimg1{
+        width:205%;
+        position:relative;
+        left:-12%;
+        /* border:2px solid yellow; */
+    }
+    .mapimg{
+        width:100%;
+    }
+    .Australia{
+        margin-top:200px;
+        /* border:2px solid yellow; */
+        /* width:300px; */
+        height:48px;
+       /* margin-left:20px; */
+        /* margin-left:710px; */
+        /* margin-right:180px; */
+        width:40%;
+        /* margin-right:50%; */
+       
+        
+    }
+  
+    .mp1{
+        width:205%;
+        border-radius: 13px;
+    }
+}
+.second{
+    margin-top:50px;
+    /* margin-left:100px; */
+    display:flex;
+    /* border:2px solid yellow; */
+}
+/* second */
+
+
+.Australia{
+    margin-top:200px;
+    /* border:2px solid yellow; */
+    /* width:300px; */
+    height:48px;
+   
+    /* margin-left:710px; */
+    /* margin-right:180px; */
+    width:30%;
+    margin-left:70%;
+    text-align: right;
+    color:#F16B58;
+    Font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5%;
+    font-style:normal;
+    padding-bottom:10px;
+    border-bottom:1px solid white ;
+    font-weight: lighter;
+    
+}
+.ins1{
+    /* border:2px solid yellow; */
+    width:43%;
+    height:375px;
+    overflow-y:auto;
+    /* margin-left:; */
+}
+
+.mapimg1{
+    width:47%;
+    height:358px;
+
+    /* border:2px solid yellow; */
+    /* margin-right:-20px; */
+    /* margin-left:145px; */
+    margin-left:15%;
+    /* margin-top:20px; */
+}
+
+.ausimg1{
+    max-width: 100%;
+    height:auto;
+    border:1px solid #E6E6E6;
+    border-radius: 3%;
+}
+
+
+.end{
+    margin-top:100px;
+}
+
+
+
+
+/* Designing for scroll-bar */
+.insscroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.insscroll::-webkit-scrollbar-track {
+    background: rgb(221, 200, 200);
+    border-radius: 5px;
+}
+
+/* Handle */
+.insscroll::-webkit-scrollbar-thumb {
+    background: #F16B58;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.insscroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} 
+
+.mp {
+    border-radius: 13px;
+}
+.mp1{
+    border-radius: 13px; 
+}
+
+/* .mapfinal{
+    width:450px;
+    height:365px;
+    border:2px solid yellow;
+    padding :20px;
+} */
+
+.entire{
+    /* border:2px solid yellow; */
+    width:85%;
+    margin:auto;
+    background-color: #24344E;
+}
+@media only screen and (max-width:500px){
+    .Australia{
+        border-bottom: 1px solid white;
+        margin-right:100px;
+        width:40%;
+        margin-left:45%;
+        padding-left:60px;
+    }
+}
+
+@media only screen and (max-width:430px){
+    .Australia{
+        border-bottom: 1px solid white;
+       /* border:2px solid pink; */
+        width:60%;
+        margin-left:25%;
+        padding-left:60px;
+    }
+}
+@media only screen and (max-width:350px){
+    .Australia{
+        border-bottom: 1px solid white;
+       /* border:2px solid pink; */
+        width:60%;
+        margin-left:17%;
+        padding-left:60px;
+    }
+}
+@media only screen and (max-width:290px){
+    .Australia{
+        border-bottom: 1px solid white;
+       /* border:2px solid pink; */
+        width:60%;
+        margin-left:5%;
+        padding-left:60px;
+    }
+}
